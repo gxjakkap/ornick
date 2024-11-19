@@ -1,0 +1,34 @@
+{
+  "name": "ornick",
+  "version": "0.1.0",
+  "description": "Scaffold your .gitignore file",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "ornick": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "gitignore"
+  ],
+  "author": "Jakkaphat Chalermphanaphan <gunt@guntxjakka.me>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "degit": "^2.8.4",
+    "download": "^8.0.0",
+    "prompts": "^2.4.2",
+    "yocto-spinner": "^0.1.1"
+  },
+  "devDependencies": {
+    "@types/degit": "^2.8.6",
+    "@types/download": "^8.0.5",
+    "@types/node": "^22.7.5",
+    "@types/prompts": "^2.4.9"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}
