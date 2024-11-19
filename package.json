@@ -1,6 +1,6 @@
 {
   "name": "ornick",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Scaffold your .gitignore file",
   "type": "module",
   "main": "dist/index.js",
@@ -17,13 +17,11 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^5.3.0",
-    "degit": "^2.8.4",
     "download": "^8.0.0",
     "prompts": "^2.4.2",
     "yocto-spinner": "^0.1.1"
   },
   "devDependencies": {
-    "@types/degit": "^2.8.6",
     "@types/download": "^8.0.5",
     "@types/node": "^22.7.5",
     "@types/prompts": "^2.4.9"
