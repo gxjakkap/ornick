@@ -1,7 +1,7 @@
 {
   "name": "ornick",
-  "version": "0.1.1",
-  "description": "Scaffold your .gitignore file",
+  "version": "0.1.2",
+  "description": "Scaffold your .gitignore",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
